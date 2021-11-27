@@ -1090,7 +1090,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-medium {
-					width: 100%;
+					width: 00%;
 				}
 
 				.row > .off-12-medium {
@@ -2070,12 +2070,9 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/bw.jpg") no-repeat center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
+		background: url("../../images/bw.jpg") center center;
 		background-size: cover;
-		
+		padding: 0;
 	}
 
 		#header:before {
@@ -2128,8 +2125,7 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
-
-
+		
 	}
 
 		#nav > ul {
