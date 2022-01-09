@@ -2070,11 +2070,29 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
+		backface-visibility: hidden;
+		animation: slideBG 25s linear infinite 0s;
+		animation-timing-function: ease-in-out;
 		background: url("../../images/bw.jpg") no-repeat center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		background-size: cover;
+		
+	}
+	@keyframes slideBG {
+		0% {
+			background-image: url("../../images/family.jpg");
+		}
+	 	25% {
+			background-image: url("../../images/bw.jpg");
+		}
+		50% {
+			background-image: url("../../images/jet.jpg");
+		}
+		75% {
+			background-image: url("../../images/navy.jpg");
+		}
+		100% {
+			background-image: url("../../images/navy2.jpg");
+		}
 		
 	}
 
